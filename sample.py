@@ -1,24 +1,13 @@
 # -*- coding: utf-8 -*-
 
 import telebot
-import logging
-logger = logging.getLogger("mylogger")
-streamHandler = logging.StreamHandler()
-streamHandler.setLevel(logging.DEBUG)
-formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-streamHandler.setFormatter(formatter)
 
-logger.addHandler(streamHandler)
-
-bot = telebot.TeleBot('YOUR TOKEN')
+bot = telebot.TeleBot('5470282289:AAEPBlBu1T2x1B072rCQk772zXY3LtOYhKU')
 
 @bot.message_handler(commands=['start'])
 def handle_text(message):
     cid = message.chat.id
     bot.send_message(cid, 'ENTER TEXT HERE')
-
-
-
 
 while 1 == 1:
     try:
