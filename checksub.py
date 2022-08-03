@@ -1,14 +1,14 @@
+# -*- coding: utf-8 -*-
 import telebot
 import telebot
 from telebot import types
 import time
 import random
 
-
 # ставим переменные бота
 
 ID = "5058141288"
-bot = telebot.TeleBot("5139079205:AAEiHfbGHLi4jWj9Rv5KBFB4SyNLtnlKdCU")
+bot = telebot.TeleBot("5470282289:AAEPBlBu1T2x1B072rCQk772zXY3LtOYhKU")
 list = ["el1", "el2"]
 
 # ставим команды
